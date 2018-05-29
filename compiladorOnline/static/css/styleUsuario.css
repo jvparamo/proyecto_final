@@ -1,0 +1,211 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.bloqueIzquierdo{
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+}
+
+.cajaVacia {
+    width: 50%;
+    height: 70px;
+    margin: auto;
+}
+
+.cajaFormulario {
+    margin: auto;
+    width: 80%;
+    background: rgb(254, 254, 255);
+
+    -webkit-box-shadow: 1px 11px 32px 2px rgba(179,179,179,1);
+    -moz-box-shadow: 1px 11px 32px 2px rgba(179,179,179,1);
+    box-shadow: 1px 11px 32px 2px rgba(179,179,179,1);
+}
+
+.cajaLogo {
+    width: 50%;
+    height: 130px;
+    margin: auto;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial Black';
+    font-size: 18px;
+    color: rgba(62, 61, 65, 0.658);
+}
+
+.formulario {
+    margin: auto;
+    text-align: center;
+    width: 400px; 
+    height: 270px;
+}
+
+#usuario {
+    width: 70%;
+	margin-top: 30px;
+	border-radius: 5px;
+	border: 1px solid rgb(230, 233, 233);
+	height: 35px;
+	padding: 5px 5px 5px 15px;
+    font-size: 14px;
+}
+
+::placeholder {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    opacity: 1; 
+    font-weight: 520;
+}
+
+#usuario:hover {
+    border-radius: 5px;
+    border: 1px solid aqua; 
+}
+
+#clave {
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 5px;
+	border: 1px solid rgb(230, 233, 233);
+	height: 35px;
+	padding: 5px 5px 5px 15px;
+    color: rgba(0, 0, 0, 0.877);    
+    font-size: 14px;
+}
+
+#clave:hover {
+    border-radius: 5px;
+    border: 1px solid aqua; 
+}
+
+#enviar {
+    width: 75%;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid rgb(35, 179, 223);
+	height: 50px;
+	padding: 5px 5px 5px 15px;
+    font-size: 16px;
+    color: white;
+    background: rgb(15, 115, 146);
+    font-family: 'Arial Black';
+    cursor: pointer;
+}
+
+#enviar:hover {
+    border-radius: 5px;
+	border: 1px solid rgb(9, 181, 211);
+    opacity: 1;
+    color: rgb(221, 220, 233);
+    transition: .8s ease;
+    background: rgb(40, 165, 238);
+}
+
+#google {
+    text-align: center;
+    width: 75%;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid rgb(187, 24, 12);
+	height: 50px;
+    font-size: 16px;
+    color: white;
+    background: rgb(202, 22, 9);;
+    font-family: 'dubai';
+    cursor: pointer;
+}
+
+#google:hover {
+    border-radius: 5px;
+	border: 1px solid rgb(255, 0, 0);
+    opacity: 1;
+    transition: .8s ease;
+    background: rgb(255, 0, 0);
+
+}
+
+.cajaRegistro {
+    width: 400px;
+    height: 70px;
+    margin: auto;
+}
+
+.cuenta {
+    margin: auto;
+    margin-top: 60px;
+    width:88%;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 18px;
+    font-weight: 545;
+}
+
+
+#registrar {
+    margin-left: 20px;
+    width: 100px;  
+    height: 30px;
+    background: rgba(255, 255, 255, 0.863);
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#registrar:hover {
+    height: 30px;
+    -webkit-box-shadow: 1px 11px 32px -7px rgba(179,179,179,1);
+    -moz-box-shadow: 1px 11px 32px -7px rgba(179,179,179,1);
+    box-shadow: 1px 11px 32px -7px rgba(179,179,179,1);
+}
+
+.regis {
+    color: rgb(6, 138, 179);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .logo {
+        margin-top: 200px;
+        background: url('../img/logo.png') no-repeat;
+        background-size: 300px;
+        width: 24vw;
+        height: 56vh;
+    }
+
+    .compilador {
+        margin-left: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .bloqueDerecho {
+        display: none;
+    }
+    
+    .bloqueIzquierdo {
+        float: left;
+        width: 100vw;
+        height: 100vh;;
+    }
+    
+    .logoPro {
+        margin-left: 37%;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .logoPro {
+        margin-left: 30%;
+    }
+}
